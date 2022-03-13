@@ -29,7 +29,7 @@ const TopBar = ({ user }) => {
             <Link to="/">Home</Link>
           </li>
           <li>
-      <Link to="/homepage"> Menu </Link>
+      <Link to="/menu"> Menu </Link>
       </li>
         </ul>
       </div>

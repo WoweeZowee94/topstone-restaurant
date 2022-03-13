@@ -7,7 +7,7 @@ import "../assets/scss/main.scss";
 import RegistrationForm from "./registration/RegistrationForm";
 import SignInForm from "./authentication/SignInForm";
 import TopBar from "./layout/TopBar";
-import Homepage from "./Homepage.js";
+import Menu from "./Menu.js";
 
 const App = (props) => {
   const [currentUser, setCurrentUser] = useState(undefined);
@@ -31,7 +31,7 @@ const App = (props) => {
         <Route exact path="/">
           <h2>Hello from App</h2>
         </Route>
-        <Route exact path="/homepage" component={Homepage}></Route>
+        <Route exact path="/menu" component={Menu} />
         <Route exact path="/users/new" component={RegistrationForm} />
         <Route exact path="/user-sessions/new" component={SignInForm} />
       </Switch>
