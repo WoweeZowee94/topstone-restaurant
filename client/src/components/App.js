@@ -8,6 +8,8 @@ import RegistrationForm from "./registration/RegistrationForm";
 import SignInForm from "./authentication/SignInForm";
 import TopBar from "./layout/TopBar";
 import Menu from "./Menu.js";
+import Contact from "./Contact.js";
+import AboutUs from "./AboutUs.js";
 
 const App = (props) => {
   const [currentUser, setCurrentUser] = useState(undefined);
@@ -31,7 +33,9 @@ const App = (props) => {
         <Route exact path="/">
           <h2>Hello from App</h2>
         </Route>
-        <Route exact path="/menu" component={Menu} />
+        <Route exact path="/Menu" component={Menu} />
+        <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/AboutUs" component={AboutUs} />
         <Route exact path="/users/new" component={RegistrationForm} />
         <Route exact path="/user-sessions/new" component={SignInForm} />
       </Switch>

@@ -12,3 +12,38 @@
   -moz-tab-size: 4;
   tab-size: 4;
 }
+
+.menu-text {
+  margin-left: 350px;
+}
+
+.button:hover {
+  background-color: aqua;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  font-size: 1.5rem;
+}
+
+a{
+  color: black
+}
+
+a:focus {
+  color: red;
+}
+
+.top-bar, .top-bar ul{
+  background-color: royalblue;
+  color: black
+}
+
+.menu {
+  background-color: royalblue
+  ;
+}
